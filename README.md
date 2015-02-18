@@ -6,9 +6,11 @@
 * Install Docker and Boot2Docker (`brew install docker boot2docker`)
 * Install the Go cross-compiler [Gox](https://github.com/mitchellh/gox) 
 
-   go get github.com/mitchellh/gox
-   gox -build-toolchain
-
+	```
+	go get github.com/mitchellh/gox
+	gox -build-toolchain
+	```
+	
 ## Build and Run application in Docker
 
 ```
